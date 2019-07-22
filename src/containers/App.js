@@ -51,7 +51,7 @@ class App extends React.Component {
 		}
 	}
 
-	closeClick() {
+	closeClick = () => {
 		this.setState({ showPopup: false })
 	}
 
